@@ -22,8 +22,6 @@ export default class Products extends Component {
   search = (e) => {
     let query = e.target.value
 
-    console.log(query)
-
     if (query !== this.state.query) {
       let results = this.state.data.filter(product => product.name.toLowerCase().includes(query.toLowerCase()))
 
