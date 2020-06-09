@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+  font-size: 24px;
+}
+.App-header {
+  background-color: white;
+  box-shadow: 0 2px 2px rgb(218, 218, 218);
+  min-height: 50px;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  font-size: 20px;
+  color: white;
+  margin: 0 0 60px 0;
+}
+h1{
+  font-family: 'Kalam', Helvetica, cursive;
+  color:black;
+  margin: 10px 60px;
+  font-size: 34px;
+  text-align:left;
+  letter-spacing: 0.05px;
+}
+h2,h3{
+  text-align: left;
+  font-size:30px;
+  font-weight: 500;
+}
+h2{
+  font-size: 50px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.search{
+  width: 70%;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-width: 1px;
+  border-color:rgb(205, 205, 205);
+  border-radius: 5px;
+  border-style:solid;
+  margin: 20px;
+  
+}
+.all-products{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 40px;
+  width: 90vm;
+}
+.product-preview{
+  padding: 20px;
+  box-shadow: 0 0 3px 1px rgb(208, 208, 208);
+  margin: 10px 10px 60px 10px;
+  border-color: grey;
+  border-radius: 5px;
+}
+.product-preview:hover{
+  opacity: 0.8;
+  cursor: pointer;
+  transform: scale(1.04);
+  transition-duration: 0.3s;
+  transition-timing-function:ease;
+}
+.image-preview{
+  width: 300px;
+}
+.product-name{
+  margin: 10px 0 20px 0;
+}
+.product-price{
+  font-size: 28px;
+  margin: 0 0 20px 0;
+}
+.detail{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 30px;
+  font-family: 'Roboto', Helvetica, sans-serif;
+}
+.left .right{
+  display:flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+  justify-content: flex-start;
+}
+.product-img{
+  max-width: 500px;
+  padding: 10px;
+}
+.description{
+  max-width: 400px;
+  text-align:left;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+@media (max-width: 800px){
+  .product-img{
+    max-width: 400px;
+    padding: 10px;
+  }
+}
+@media (max-width: 540px){
+  .product-img{
+    max-width: 280px;
+    padding: 10px;
+  }
+  .description{
+    max-width: 280px;
+    text-align:left;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+  .name{
+    font-size: 30px;
+  }
+  .price{
+    font-size: 24px;
+  }
+}
+
+
