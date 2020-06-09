@@ -102,6 +102,21 @@ a{
   font-size: 16px;
   letter-spacing: 1px;
 }
+.sort-form{
+  display: flex;
+  justify-content: flex-end;
+  width: 85%;
+  padding: 10px 10px;
+}
+#sort{
+  font-size: 18px;
+  padding: 4px 6px;
+  border-width: 0px;
+}
+#sort-label{
+  font-size: 20px;
+  font-weight: 700;
+}
 @media (max-width: 800px){
   .product-img{
     max-width: 400px;
