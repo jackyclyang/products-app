@@ -105,6 +105,7 @@ a{
 .sort-form{
   display: flex;
   justify-content: flex-end;
+  flex-wrap:wrap;
   width: 85%;
   padding: 30px 10px;
 }
@@ -142,6 +143,14 @@ a{
   .price{
     font-size: 24px;
   }
+  .product-preview{
+    padding: 20px;
+    margin: 10px 5px;
+  }
+  .image-preview{
+    max-width: 240px;
+  }
+  
 }
 
 
